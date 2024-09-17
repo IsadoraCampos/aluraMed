@@ -16,3 +16,9 @@
     font-weight: 400;
     color: var(--cor-cinza);
 }
+
+@media screen and (min-width: 1024px){
+    .perfil-medica {
+        margin: 2em 10em;
+    }
+}
