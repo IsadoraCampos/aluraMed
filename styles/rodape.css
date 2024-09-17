@@ -1,0 +1,46 @@
+.rodape__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: var(--cor-branca);
+    border-radius: 12px 12px 0 0;
+    padding: 1.5em;
+}
+
+.rodape__nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agenda, .pacientes, .relatorio, .menu {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.agenda {
+    background-image: url("../img/Calendarioicone.png");
+    opacity: 30%;
+}
+
+.pacientes {
+    background-image: url("../img/clientes icone.png");
+    opacity: 30%;
+}
+
+.relatorio {
+    background-image: url("../img/relatorios icone.png");
+    opacity: 30%;
+}
+
+.menu {
+    background-image: url("../img/menu icone.png");
+    opacity: 30%;
+}
+
+.rodape__nav-item-texto {
+    color: var(--cor-cinza);
+    padding-top: 0.5em;
+}

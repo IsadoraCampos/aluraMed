@@ -1,0 +1,11 @@
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-branca);
+    padding: 1em 2em;
+}
+
+.navegacao__icons {
+    display: flex;
+    gap: 10px;
+}
