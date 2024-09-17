@@ -44,3 +44,30 @@
     color: var(--cor-cinza);
     padding-top: 0.5em;
 }
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        position: fixed;
+        top: 2em;
+        left: 0;
+        width: 12%;
+    }
+
+    .rodape__nav {
+        display:flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .rodape__nav-item {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+   .rodape {
+     width:7%;
+   }
+}
+
