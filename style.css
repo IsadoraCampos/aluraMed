@@ -3,6 +3,7 @@
 @import url('styles/perfil.css');
 @import url('styles/consultas.css');
 @import url('styles/rodape.css');
+@import url('styles/form.css');
 
 :root {
     --cor-branca: #FFFFFF;
