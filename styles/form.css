@@ -1,0 +1,49 @@
+.cadastro__novo-paciente {
+    display: none;
+}
+
+@media screen and (min-width: 1728px) {
+    .cadastro__novo-paciente {
+        display: block;
+        text-align: center;
+        margin: 8em 0.5em;
+    }
+
+    .formulario__titulo {
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding: 2em 0;
+    }
+
+    .campo__formulario {
+        padding: 2em 0;
+    }
+
+    .nome-campo__form {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5em 0;
+        font-size: 1.3rem;
+    }
+
+    .botao__cadastrar-paciente {
+        background-color: var(--cor-azul);
+        color: var(--cor-branca);
+        font-size: 1.2rem;
+        border-radius: 8px;
+        padding: 0.8em 1em;
+        width: 8%;
+    }
+
+    .descricao-input {
+        width: 20%;
+        border-radius: 5px;
+        padding: 1em 0.5em;
+    }
+
+    input::placeholder {
+        font-size: 1rem;
+        padding: 0.5em;
+        color: var(--cor-cinza);
+    }
+}
