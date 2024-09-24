@@ -275,6 +275,32 @@
           </div>
           <div class="campo__formulario">
               <label class="nome-campo__form">Observações</label>
+
+      <form method="post" class="formulario" id="form">
+          <div class="campo__formulario">
+              <label class="nome-campo__form" for="nome">Nome do Paciente</label>
+              <input type="text" name="nome" id="nome" placeholder="Nome do Paciente" required class="descricao-input" data-form minlength="3">
+              <span class="mensagem-erro"></span>
+          </div>
+          <div class="campo__formulario">
+              <label class="nome-campo__form">Tipo de Consulta</label>
+              <input type="radio" name="tipo-consulta" id="online" class="radio" data-form>
+              <span class="tipo__consulta">Online</span>
+              <input type="radio" name="tipo-consulta" id="presencial" class="radio" data-form>
+              <span class="tipo__consulta">Presencial</span>
+          </div>
+          <div class="campo__formulario">
+              <label class="nome-campo__form" for="data-consulta">Data da Consulta</label>
+              <input type="date" name="data-consulta" id="data-consulta" required class="descricao-input" data-form>
+              <span class="mensagem-erro"></span>
+          </div>
+          <div class="campo__formulario">
+              <label class="nome-campo__form" for="hora">Horário da Consulta</label>
+              <input type="time" name="hora" id="hora" required class="descricao-input" data-form>
+              <span class="mensagem-erro"></span>
+          </div>
+          <div class="campo__formulario">
+              <label class="nome-campo__form" for="obs">Observações</label>
               <input type="text" name="obs" id="obs" placeholder="Observações" class="descricao-input">
           </div>
           <div class="campo__formulario">
@@ -303,6 +329,8 @@
           </div>
       </nav>
   </section>
+
+  <script src="js/form.js" type="module"></script>
 
 </body>
 </html>

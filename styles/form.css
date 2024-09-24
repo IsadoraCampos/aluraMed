@@ -46,4 +46,10 @@
         padding: 0.5em;
         color: var(--cor-cinza);
     }
+
+    .mensagem-erro{
+        display: block;
+        color: var(--cor-erros);
+        padding: 1em 0;
+    }
 }
